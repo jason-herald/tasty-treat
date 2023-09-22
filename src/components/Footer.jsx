@@ -22,14 +22,10 @@ const Footer = () => {
 
         <div className="footer-section delivery-time">
           <h3>Delivery Time</h3>
-          <p>
-            Sunday - Thursday
-            <p>10:00am - 11:00pm</p>
-          </p>
-          <p>
-            Friday - Saturday
-            <p>Off days</p>
-          </p>
+          <p>Sunday - Thursday</p>
+          <p>10:00am - 11:00pm</p>
+          <p>Friday - Saturday</p>
+          <p>Off days</p>
         </div>
 
         <div className="footer-section contact">
