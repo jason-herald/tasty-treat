@@ -16,6 +16,7 @@ function CartModal({ isOpen, onClose }) {
         <button className="close-btn" onClick={onClose}>
           X
         </button>
+        <div className="spacer"></div>
 
         {cart.map((item) => (
           <div key={item.id} className="cart-item">
@@ -50,15 +51,13 @@ function CartModal({ isOpen, onClose }) {
           </div>
         ))}
 
-        
         <div className="cart-summary">
           <span>Subtotal: ${subtotal}</span>
-        </div>
 
-        
-        <Link to="/checkout" className="checkout-btn">
-          Checkout
-        </Link>
+          <Link to="/checkout" className="checkout-btn">
+            Checkout
+          </Link>
+        </div>
       </div>
     </div>
   );

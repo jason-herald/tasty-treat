@@ -1,12 +1,14 @@
 .cart-modal {
   position: fixed;
   top: 0;
+  z-index: 10;
   right: 0;
   width: 0;
   height: 100%;
   background-color: rgba(0, 0, 0, 0.7);
   overflow-y: auto;
   transition: 0.5s;
+  flex-direction: column;
 }
 
 .cart-modal.open {
@@ -16,13 +18,16 @@
 .cart-content {
   background-color: #fff;
   height: 100%;
-  padding: 20px;
+
+  display: flex;
+  flex-direction: column;
 }
 
 .cart-item {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin: 10px;
   padding: 10px 0;
 }
 
@@ -67,8 +72,12 @@
 }
 
 .cart-summary {
-  padding: 10px 0;
+  padding: 10px 10px;
+  margin-top: auto;
   font-weight: bold;
+  background-color: #de1f21;
+  display: flex;
+  justify-content: space-between;
 }
 
 .close-btn {
@@ -119,4 +128,7 @@
 
 .checkout-btn:hover {
   background-color: #e0e0e0;
+}
+.spacer {
+  height: 30px;
 }

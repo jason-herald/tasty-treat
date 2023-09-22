@@ -4,8 +4,9 @@
 }
 
 .small-text {
-  font-size: 14px;
+  font-size: 18px;
   color: #000;
+  font-weight: bold;
 }
 
 h1 {

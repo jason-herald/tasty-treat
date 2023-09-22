@@ -1,5 +1,13 @@
 import React from "react";
 import logo from "../images/res-logo.png";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+  faFacebook,
+  faTwitter,
+  faInstagram,
+  faLinkedin,
+} from "@fortawesome/free-brands-svg-icons";
+import { faPaperPlane } from "@fortawesome/free-solid-svg-icons";
 
 import facebookIcon from "../images/category-01.png";
 import twitterIcon from "../images/category-02.png";
@@ -30,21 +38,23 @@ const Footer = () => {
 
         <div className="footer-section contact">
           <h3>Contact</h3>
-          <p>Location: Zinda Bazaar, somewhere, Something</p>
+          <p>Location: ZindaBazaar, Sylhet-3100, Bangladesh</p>
           <p>Phone: +123 456 7890</p>
           <p>Email: example@example.com</p>
         </div>
 
         <div className="footer-section newsletter">
           <h3>Newsletter</h3>
-          <p>Subscribe to our Newsletter here</p>
+          <p>Subscribe to our Newsletter</p>
           <div className="input-wrapper">
             <input
               type="email"
               placeholder="Enter Your Email"
               className="newsletter-input"
             />
-            <button className="submit-button">Submit</button>
+            <button className="submit-button">
+              <FontAwesomeIcon icon={faPaperPlane} />
+            </button>
           </div>
         </div>
       </div>
@@ -53,12 +63,12 @@ const Footer = () => {
 
         <div className="socials">
           <div className="socials-container">
-            <p>Follow: </p>
+            <p className="socials-txt">Follow: </p>
 
-            <img src={facebookIcon} alt="Facebook" />
-            <img src={twitterIcon} alt="Twitter" />
-            <img src={instagramIcon} alt="Instagram" />
-            <img src={linkedinIcon} alt="LinkedIn" />
+            <FontAwesomeIcon className="fa-icon" icon={faFacebook} size="2x" />
+            <FontAwesomeIcon className="fa-icon" icon={faTwitter} size="2x" />
+            <FontAwesomeIcon className="fa-icon" icon={faInstagram} size="2x" />
+            <FontAwesomeIcon className="fa-icon" icon={faLinkedin} size="2x" />
           </div>
         </div>
       </div>

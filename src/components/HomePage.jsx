@@ -51,7 +51,7 @@ const HomePage = () => {
           </p>
           <div className="buttons">
             <button className="order-now" onClick={redirectToExploreFoods}>
-              Order Now
+              Order Now &gt;
             </button>
             <button className="see-all" onClick={redirectToExploreFoods}>
               See All Foods

@@ -63,7 +63,7 @@
 }
 
 .submit-button {
-  background-color: #e02a2b;
+  background-color: #de1f21;
   border: none;
   padding: 10px 15px;
   color: #fff;
@@ -77,4 +77,12 @@
 
 .submit-button:hover {
   background-color: darkred;
+}
+
+.fa-icon {
+  margin-right: 20px;
+  color: #de1f21;
+}
+.socials-txt {
+  margin-right: 20px;
 }

@@ -45,13 +45,13 @@
 .add-to-cart-btn {
   padding: 8px 12px;
   border: none;
-  background-color: #ff4757;
+  background-color: #de1f21;
   color: white;
   border-radius: 5px;
   cursor: pointer;
   transition: background-color 0.3s;
 
   &:hover {
-    background-color: #ff6b81;
+    background-color: rgb(250, 107, 128)
   }
 }
