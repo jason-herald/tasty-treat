@@ -1,0 +1,80 @@
+.footer {
+  background-color: #fce3e2;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  color: #202144;
+}
+
+.footer-section {
+  width: 20%;
+}
+
+.logo {
+  width: 50px;
+  height: auto;
+}
+
+.site-name {
+  font-weight: bold;
+}
+
+.footer-bottom {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.copyright {
+  color: #e02a2b;
+}
+
+.socials img {
+  margin-left: 10px;
+  width: 25px;
+  height: 25px;
+  cursor: pointer;
+}
+.footer-top {
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+.socials-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.newsletter-input {
+  width: 100%;
+  padding: 12px 15px;
+  border: 1px solid #000;
+  background-color: transparent;
+  box-sizing: border-box;
+  border-radius: 10px;
+  position: relative;
+}
+
+.input-wrapper {
+  position: relative;
+  width: 60%;
+  max-width: 300px;
+}
+
+.submit-button {
+  background-color: #e02a2b;
+  border: none;
+  padding: 10px 15px;
+  color: #fff;
+  cursor: pointer;
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  border-radius: 4px;
+}
+
+.submit-button:hover {
+  background-color: darkred;
+}
